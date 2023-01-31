@@ -14,7 +14,7 @@ return new class extends Migration
     public function up()
     {
         Schema::create('posts', function (Blueprint $table) {
-            $table->id();
+            $table->id()->startingValue(44);
             $table->foreignId('user_id');
             $table->string('seller_name');
             $table->string('title');
