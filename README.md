@@ -44,6 +44,13 @@ npm run build
 
 php artisan migrate --seed
 
+---下記メッセージが表示されたらyesと入力しEnter---
+   WARN  The SQLite database does not exist: database/database.sqlite.  
+
+  Would you like to create it? (yes/no) [no]
+❯ 
+--------------------------------------------
+
 php artisan serve
 ```
 
